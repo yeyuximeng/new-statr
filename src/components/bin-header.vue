@@ -10,7 +10,7 @@
                 :href="link(menu)"
                 :class="{active:menu.desc === $route.meta.title}"
               >
-<!--                <i :class="`el-icon-${menu.icon}`"></i>-->
+                <i :class="`el-icon-${menu.icon}`"></i>
                 {{menu.desc}}
               </a>
           </div>

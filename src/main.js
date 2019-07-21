@@ -6,11 +6,15 @@ import Element from 'element-ui'
 
 import constants from './constants';
 
+import directives from './directives';
+
 import Utils from './utils';
 
 Vue.use(constants);
 
 Vue.use(Element);
+
+Vue.use(directives);
 
 Vue.use(Utils);
 

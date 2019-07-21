@@ -8,7 +8,7 @@
           <div class="bottom clearfix">
             <span>适合想要跨入互联网行业的同学来学习。</span>
           </div>
-          <el-button type="primary" class="right-btn" round>进入学习</el-button>
+          <el-button type="primary" class="right-btn" size="small" round>进入学习</el-button>
         </div>
       </el-card>
     </div>
@@ -54,7 +54,7 @@
     }
   }
   .right-btn{
-    margin-left: 72%;
+    margin-left: 80%;
   }
 }
 </style>

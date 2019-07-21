@@ -40,7 +40,15 @@ const router = new Router({
       path: '/skill',
       name: 'skill',
       meta: { title: '技能'},
-      component: () => import('../pages/skill.vue'),
+      component: () => import('../pages/skills/skill.vue'),
+      children: [
+          {
+              name: 'skill-name',
+              path: 'skill-name',
+              meta: {title: '技能'},
+              component: () => import('../pages/skills/skill-name.vue'),
+          },
+      ],
     },
     {
       path: '/experience',
