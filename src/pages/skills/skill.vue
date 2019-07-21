@@ -73,7 +73,7 @@
 					(typeof console !== 'undefined') && console.log(e, wbout);
 				}
 
-				return wbout
+				return wbout;
 			},
         }
     }
