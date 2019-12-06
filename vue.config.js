@@ -8,8 +8,8 @@ module.exports = {
   runtimeCompiler: true,
   productionSourceMap: false,
   devServer: {
-    port: 80,
-    host: 'local.bin.com',
+    port: 8080,
+    host: '127.0.0.1',
     open: true,
   },
   pages: {
