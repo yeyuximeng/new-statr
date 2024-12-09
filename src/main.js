@@ -21,7 +21,7 @@ Vue.use(Utils);
 Vue.$utils.platform();
 
 Vue.config.productionTip = false;
-
+let a = 1
 new Vue({
   router,
   store,
